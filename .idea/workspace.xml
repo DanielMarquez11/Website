@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f762654-a38e-4358-bf47-bf5f493c0f54" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bluesky-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Bluesky-logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bluesky_Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Bluesky_Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daniel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Daniel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GLU.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/GLU.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HUbVandoorne.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/HUbVandoorne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profiles_Daniel_A.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Profiles_Daniel_A.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profiles_Daniel_B.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Profiles_Daniel_B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selfie_tenerife.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Selfie_tenerife.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teraa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Teraa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netteSelfie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/netteSelfie.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +55,11 @@
       <recent name="D:\Portfolio\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Metaverse Solutions\Website\Images" />
       <recent name="D:\Metaverse Solutions\Website" />
       <recent name="D:\Portfolio\Covers" />
       <recent name="D:\Portfolio\ProjectCovers" />
       <recent name="D:\Portfolio\Documents" />
-      <recent name="D:\Portfolio\Images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -91,6 +100,7 @@
       <workItem from="1754006748868" duration="28000" />
       <workItem from="1754007262987" duration="68000" />
       <workItem from="1754007418040" duration="1761000" />
+      <workItem from="1754054982920" duration="117000" />
     </task>
     <servers />
   </component>
