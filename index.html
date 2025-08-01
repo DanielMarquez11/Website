@@ -155,7 +155,7 @@
     <!-- Verborgen project content -->
     <div id="project-content-1" class="project-content hidden">
         <h2>Soul Stealers</h2>
-        <video id="videos" width="640" height="360" controls muted>
+        <video id="videos" width="640" height="360" controls>
             <source src="Videos/Soul%20Stealer%20Trailer.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -169,7 +169,43 @@
             </p>
         </div>
         <h3>About the Game</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias animi distinctio dolores eligendi ipsum, minus tempore! Ducimus laboriosam mollitia nostrum quibusdam repellat. Dolor dolorum incidunt nemo nostrum quam repellendus!</p>
         <h3> What did I work on </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae cumque cupiditate debitis deserunt dolore dolores ducimus error id, illum itaque magni molestiae omnis perspiciatis quia quibusdam ullam ut voluptate?</p>
+        <div class="Screenshots">
+            <img src="/SoulStealers/GifSoulStealers.gif" alt="">
+            <img src="/SoulStealers/Soulstealers1.png" alt="">
+            <img src="/SoulStealers/Soulstealers2.png" alt="">
+            <img src="/SoulStealers/Soulstealers3.png" alt="">
+        </div>
+        <div class="Team animated-welcome">
+            <h3>Team</h3>
+            <img id="TeamPhoto" src="/SoulStealers/TeamFoto.jpg" alt="">
+        </div>
+        <div class="Team-info">
+            <div class="info-column">
+                <strong>Engine</strong>
+                <p>Unity</p>
+            </div>
+            <div class="info-column">
+                <strong>Language</strong>
+                <p>C#</p>
+            </div>
+            <div class="info-column">
+                <strong>Artist</strong>
+                <a id="Irina" class="TeamNames-Info" href="https://cheirisham.artstation.com/" target="_blank">Irina Chernetskaja (2D/3D)</a>
+                <a id="Patrick" class="TeamNames-Info" href="https://www.artstation.com/patrick_van_der_steen" target="_blank">Patrick van der Steen</a>
+            </div>
+            <div class="info-column">
+                <strong>Game Programmers</strong>
+                <a id="Daniel" class="TeamNames-Info">Daniel Marquez Rubio</a>
+                <a id="Tommi" class="TeamNames-Info" href="https://www.artstation.com/patrick_van_der_steen" target="_blank">Patrick van der Steen</a>
+            </div>
+            <div class="info-column">
+                <strong>Time Frame</strong>
+                <p>6 Weeks</p>
+            </div>
+        </div>
     </div>
     <div id="project-content-2" class="project-content hidden">
 <!--        -->
@@ -243,6 +279,23 @@
     </div>
 </footer>
 <script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const video = entry.target;
+            if (entry.isIntersecting) {
+                // Video is zichtbaar: unmute
+                video.muted = false;
+            } else {
+                video.muted = true;
+            }
+        });
+    }, {
+        threshold: 0
+    });
+    const video = document.getElementById("videos");
+    if (video) {
+        observer.observe(video);
+    }
     const form = document.querySelector('form');
 
     form.addEventListener('submit', e => {
@@ -271,17 +324,37 @@
             const contentDiv = document.getElementById('project-content-' + id);
             if (contentDiv) {
                 modalText.innerHTML = contentDiv.innerHTML;
+                // Wacht 1 tick zodat de DOM is geüpdatet
+                requestAnimationFrame(() => {
+                    const video = modalText.querySelector("video");
+                    if (video) {
+                        observer.observe(video);
+                        video.volume = 0.2;
+
+                        // Reset naar begin en speel af
+                        video.currentTime = 0;
+                        video.play().catch(err => {
+                            console.log("Video kon niet automatisch starten:", err);
+                        });
+                    }
+                });
             } else {
                 modalText.textContent = "Geen details beschikbaar.";
             }
             modal.classList.remove('hidden');
-            document.body.style.overflow = 'hidden'; // scroll body blokkeren
+            document.body.style.overflow = 'hidden';
         });
     });
 
     function closeModal() {
         modal.classList.add('hidden');
-        document.body.style.overflow = ''; // scroll body weer aan
+        document.body.style.overflow = '';
+        const video = modalText.querySelector("video");
+        if (video) {
+            observer.unobserve(video);
+            video.pause();
+            video.currentTime = 0;
+        }
     }
 
     closeBtn.addEventListener('click', closeModal);
@@ -301,6 +374,8 @@
             badges.forEach(b => container.appendChild(b));
         });
     });
+    modalText.innerHTML = contentDiv.innerHTML;
+
 </script>
 </body>
 </html>

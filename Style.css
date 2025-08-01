@@ -645,3 +645,67 @@ html {
 .ContactFormula-Info {
     color: #ffffff;
 }
+
+/*Project Soul Stealers*/
+.Team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#TeamPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#Irina {
+    display: flex;
+}
+#Patrick{
+    display: flex;
+}
+#Tommi {
+    display: flex;
+}
+#Daniel {
+    display: flex;
+    text-decoration: none;
+}
+.TeamNames-Info {
+    color: #00c3ff;
+    text-decoration: none;
+}
+.TeamNames-Info:hover {
+    text-decoration: underline;
+}
+.Engine-Info {
+}
+.Team-info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #202539;
+    border-radius: 15px;
+}
+.Team-info strong {
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Demi', serif;
+    color: #000000;
+    display: block;
+    text-align: center;
+}
+.Team-info p {
+    color: #00c3ff;
+}
+
+.info-column {
+    min-width: 100px;
+}
