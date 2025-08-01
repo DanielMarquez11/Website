@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="Style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="angled-header">
@@ -154,31 +157,35 @@
 
     <!-- Verborgen project content -->
     <div id="project-content-1" class="project-content hidden">
-        <h2>Soul Stealers</h2>
-        <video id="videos" width="640" height="360" controls>
-            <source src="Videos/Soul%20Stealer%20Trailer.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <h3>Project Info</h3>
-        <div class="project-info">
-            <p>
-                Role: Game Programmer<br>
-                Team Size: 6 <br>
-                Time Frame: 6 Weeks <br>
-                Engine: Unity (C#) <br>
-            </p>
+        <h2 class="GameName">Soul Stealers</h2>
+        <div class="GameplayVideo">
+            <video id="videos" width="840" height="560" controls>
+                <source src="Videos/Soul%20Stealer%20Trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+                <a href="https://weakluck.itch.io/soul-stealer" class="btn itch-io" target="_blank" rel="noopener">
+                    <i class="fab fa-itch-io"></i>
+                    <span>Play now on Itch IO</span>
+                </a>
         </div>
-        <h3>About the Game</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias animi distinctio dolores eligendi ipsum, minus tempore! Ducimus laboriosam mollitia nostrum quibusdam repellat. Dolor dolorum incidunt nemo nostrum quam repellendus!</p>
-        <h3> What did I work on </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae cumque cupiditate debitis deserunt dolore dolores ducimus error id, illum itaque magni molestiae omnis perspiciatis quia quibusdam ullam ut voluptate?</p>
+        <h3 class="GameName">About the Game</h3>
+        <p class="GameName-Description">Haunt. Hunt. Evolve.
+            Step into the role of a restless spirit on a mission to become the most feared ghost in existence. In Soul Stealer, you’ll sneak, scare, and outsmart waves of increasingly determined humans trying to banish you for good.
+
+            Each round grows harder — but so do you. Choose powerful upgrades after every wave to enhance your ghostly powers, from terrifying speed to spectral tricks that turn the tide in your favor. Strategy and timing are key if you want to survive... and dominate.
+
+            Play instantly on itch.io, right in your browser. No downloads. Just pure, haunting action.</p>
+        <h3 class="GameName"> What did I work on </h3>
+        <p class="GameName-Description"> I was responsible for designing and implementing the AI systems for all character types. I also developed the logic for character behavior randomization, ensuring each encounter felt dynamic and unique.</p>
         <div class="Screenshots">
             <img src="/SoulStealers/GifSoulStealers.gif" alt="">
             <img src="/SoulStealers/Soulstealers1.png" alt="">
             <img src="/SoulStealers/Soulstealers2.png" alt="">
             <img src="/SoulStealers/Soulstealers3.png" alt="">
+            <img src="/SoulStealers/Soulstealers4.png" alt="">
+            <img src="/SoulStealers/Soulstealers5.png" alt="">
         </div>
-        <div class="Team animated-welcome">
+        <div class="Team GameName">
             <h3>Team</h3>
             <img id="TeamPhoto" src="/SoulStealers/TeamFoto.jpg" alt="">
         </div>
@@ -283,12 +290,7 @@
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             const video = entry.target;
-            if (entry.isIntersecting) {
-                // Video is zichtbaar: unmute
-                video.muted = false;
-            } else {
-                video.muted = true;
-            }
+            video.muted = !entry.isIntersecting;
         });
     }, {
         threshold: 0
@@ -375,7 +377,6 @@
             badges.forEach(b => container.appendChild(b));
         });
     });
-    modalText.innerHTML = contentDiv.innerHTML;
 
 </script>
 </body>
