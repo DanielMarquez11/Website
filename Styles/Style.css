@@ -1,0 +1,647 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+body {
+    background-color: #0d1117;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.footer-content {
+    background-color:#161b22;
+    color: #fff;
+    padding: 2rem 2rem 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: revert;
+}
+.Icon-Tab {
+    justify-content: right;
+    align-items: center;
+    gap: 0.5rem;
+    display: flex;
+}
+.FooterName {
+    display: flex;
+    font-size: .9rem;
+    justify-content: center;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s, transform 0.2s;
+}
+.social-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn i {
+    font-size: 20px;
+}
+
+.btn.discord {
+    background-color: #5865F2;
+}
+
+.btn.github {
+    background-color: #0d1117;
+}
+
+.btn.linkedin {
+    background-color: #ffffff;
+    color: #0a66c2;
+    border: 2px solid #0a66c2;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+.angled-header {
+    background-color:#161b22;
+    color: #fff;
+    padding: 2rem 2rem 2rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    position: relative;
+    z-index: 1000;
+}
+
+.nav-content {
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 170px;
+    border-radius: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: #58a6ff;
+}
+
+.logo-wrapper {
+    background-color: #202539; /* accent color */
+    border-radius: 50%;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.About {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #202539;
+    border: 2px solid #4a4a4a;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
+#About {
+    scroll-margin-top: 350px;
+}
+#Projects {
+    scroll-margin-top: 300px;
+}
+
+.NetteLogo-Wrapper {
+    background-color: #0c0f15; /* accent color */
+    border-radius: 50%;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+}
+
+.NetteLogo {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+#Role {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #58a6ff;
+    text-shadow: 0 0 5px #58a6ff, 0 0 10px #58a6ff, 0 0 15px #58a6ff;
+    animation: pulseGlow 2.5s infinite ease-in-out;
+    margin-top: 10px;
+}
+
+.styled-intro {
+    padding: 1.2rem;
+    background-color: #0d1117;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.highlight {
+    color: #58a6ff;
+}
+
+.intro-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #c9d1d9;
+}
+
+.animated-Description {
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 8px #58a6ff, 0 0 15px rgba(88, 166, 255, 0.1);
+    animation: glowFadeIn 2s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.animated-welcome {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #58a6ff;
+    text-shadow: 0 0 8px #58a6ff, 0 0 15px rgba(88, 166, 255, 0.4);
+    animation: glowFadeIn 2s ease-in-out;
+    letter-spacing: 1px;
+}
+
+@keyframes pulseGlow {
+    0%, 100% {
+        text-shadow: 0 0 5px #58a6ff, 0 0 10px #58a6ff, 0 0 15px #58a6ff;
+    }
+    50% {
+        text-shadow: 0 0 15px #58a6ff, 0 0 25px #58a6ff, 0 0 35px #58a6ff;
+    }
+}
+
+@keyframes glowFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+        text-shadow: none;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        text-shadow: 0 0 8px #58a6ff, 0 0 15px rgba(88, 166, 255, 0.4);
+    }
+}
+
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 2.2rem;
+    }
+
+    .animated-welcome {
+        font-size: 2.5rem;
+    }
+
+    .intro-description {
+        font-size: 1rem;
+    }
+
+    .NetteLogo-Wrapper {
+        height: 140px;
+        width: 140px;
+        padding: 15px;
+    }
+
+    .NetteLogo {
+        height: 160px;
+    }
+
+    .logo {
+        height: 70px;
+    }
+
+    .logo-wrapper {
+        height: 60px;
+        width: 60px;
+        padding: 15px;
+    }
+
+    .nav-menu {
+        gap: 1rem;
+    }
+}
+
+.Contact a {
+    margin-top: -2rem;
+    border: 2px solid #58a6ff; /* blauwe border, pas kleur aan */
+    padding: 8px 16px;
+    border-radius: 64px;
+    text-decoration: none;
+    display: inline-block; /* zorgt dat padding en border netjes werken */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Contact a:hover {
+    background-color: #58a6ff;
+    color: #fff;
+}
+
+.cv-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #58a6ff;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #79c0ff;
+}
+
+.project-title {
+    text-transform: capitalize;
+    text-align: center;
+}
+.Projects {
+    margin-top: 5rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+.project {
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+    user-select: none;
+    width: 300px;
+    height: 200px;
+}
+.project:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+
+/* Modal styling */
+.modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 1000;
+    overflow: auto; /* scroll binnen modal */
+}
+.hidden {
+    display: none;
+}
+.modal-content {
+    max-width: 2000px;
+    width: 100%;
+    background: #343a40;
+    color: #000000;
+    max-height: 80vh;
+    overflow-y: auto; /* scrollbare content in modal */
+    border-radius: 12px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    user-select: none;
+}
+/* Style voor de content in de modal */
+.project-content h2 {
+    margin-top: 0;
+}
+.project-content h {
+    color: #58a6ff;
+}
+.project-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.project[data-project="1"] {
+    background-image: url('../Covers/SoulStealersCover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project[data-project="2"] {
+    background-image: url('../Covers/Jingle Jam Jamboree Cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project[data-project="3"] {
+    background-image: url('../Covers/Robo Recall Cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project[data-project="4"] {
+    background-image: url('../Covers/MyDwarfMineCover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project[data-project="5"] {
+    background-image: url('../Covers/MarblePuzzlerCover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project[data-project="6"] {
+    background-image: url('../Covers/AnneFrankCover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; /* zorgt dat overlay niet buiten valt */
+    transition: opacity 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -100%);
+    scale:  0.8;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* zodat hover niet wordt verstoord */
+}
+
+.project:hover .overlay-text {
+    opacity: 1;
+}
+
+.overlay-text {
+    display: flex;
+    flex-direction: column;  /* onder elkaar */
+    gap: 8px;                /* ruimte tussen de boxes */
+    align-items: center;     /* optioneel: centreren */
+}
+
+.text-box {
+    background-color: rgba(13, 17, 23, 0.7);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    font-size: 1.2rem;
+    min-width: 10px;
+    text-align: center;
+    padding: 4px 12px;
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Demi', serif;
+    font-weight: bold;
+    color: rgb(18, 18, 18);
+    text-transform: uppercase;
+}
+
+
+.project-card {
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+.project-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.project-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+    font-family: 'Franklin Gothic Demi', serif;
+}
+
+.project-description {
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    text-shadow: 0 0 5px black;
+}
+
+.badge-container {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* zodat de badges rechts uitlijnen */
+    padding: 10px;
+    gap: 5px;
+    z-index: 10;
+}
+.badge-container:hover .overlay-text {
+    opacity: 1;
+}
+.contact-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.contact-modal:target {
+    display: flex;
+}
+
+.contact-modal .modal-content {
+    background-color: #343a40;
+    padding: 1rem;
+    max-width: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-modal .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+/* Button contact page*/
+
+.Button {
+    background-color: transparent;
+    width: 30rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+.FullName {
+    font-size: 1.5rem;
+    display: block;
+}
+.DiscordName {
+    font-size: 1.5rem;
+    display: block;
+}
+.Message {
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+}
+.TextAreaMessage {
+    display: block;
+}
+.ContactForm  {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ContactFormula {
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+#Mail {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#Mail:hover {
+    color: #00c3ff; /* Of een andere kleur naar keuze */
+    text-decoration: underline;
+    background-color: rgba(0, 195, 255, 0.1);
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+.ContactFormula-Info {
+    color: #ffffff;
+}
