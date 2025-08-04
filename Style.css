@@ -664,7 +664,7 @@ html {
     font-family: "Bebas Neue", sans-serif;
     font-size: 4.2rem;
 }
-.TeamPhoto {
+#TeamPhoto {
     flex-direction: column;
     justify-content: center;
     align-items: center;
