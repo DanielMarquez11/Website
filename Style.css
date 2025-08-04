@@ -809,7 +809,7 @@ html {
     0%   { transform: translateY(0); }
     100% { transform: translateY(100%); }
 }
-
+/* Robo Recall*/
 .gear-overlay {
     position: relative;
     overflow: hidden;
@@ -834,11 +834,65 @@ html {
     background-size: 30px 30px;
     background-position: center center;  /* gear in tile centreren */
     animation: gearFall 45s linear infinite;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 
 @keyframes gearFall {
     0%   { transform: translateY(0); }
     100% { transform: translateY(100%); }
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* ruimte tussen icoon en naam */
+}
+
+.profile-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* maakt het rond als je wil */
+    object-fit: cover;
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.Language-Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.Engine-Info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+.Engine-Logo {
+    width: 200px;
+    border-radius: 50%; /* maakt het rond als je wil */
+    object-fit: cover;
+}
+.cropped-circle {
+    width: 140px;
+    height: 140px;
+    top: 20px;
+    left: 22%;
+    border-radius: 20%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cropped-circle img {
+    width: 200px;     /* grotere afmeting dan de container */
+    height: auto;
+    object-fit: cover;
+    object-position: -30px -30px; /* verplaats het zichtbare deel */
+    position: absolute;
 }
