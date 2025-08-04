@@ -665,7 +665,6 @@ html {
     font-size: 4.2rem;
 }
 .TeamPhoto {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
