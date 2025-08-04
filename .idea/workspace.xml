@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f762654-a38e-4358-bf47-bf5f493c0f54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Videos/JingleJamGameplayTrailer.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/RoboRecall Trailer.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +50,11 @@
       <recent name="D:\Portfolio\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Metaverse Solutions\Website\Videos" />
       <recent name="D:\Metaverse Solutions\Website\Images" />
       <recent name="D:\Metaverse Solutions\Website" />
       <recent name="D:\Portfolio\Covers" />
       <recent name="D:\Portfolio\ProjectCovers" />
-      <recent name="D:\Portfolio\Documents" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -93,6 +97,7 @@
       <workItem from="1754007418040" duration="1761000" />
       <workItem from="1754054982920" duration="25037000" />
       <workItem from="1754097080552" duration="51000" />
+      <workItem from="1754259318642" duration="4746000" />
     </task>
     <servers />
   </component>
