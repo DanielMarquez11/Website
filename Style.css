@@ -209,6 +209,16 @@ html {
     margin-top: 10px;
 }
 
+.Projects-Name {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #58a6ff;
+    text-shadow: 0 0 5px #58a6ff, 0 0 10px #58a6ff, 0 0 15px #58a6ff;
+    animation: pulseGlow 2.5s infinite ease-in-out;
+    margin-top: 10px;
+}
+
 .styled-intro {
     padding: 1.2rem;
     background-color: #0d1117;
@@ -280,10 +290,6 @@ html {
         font-size: 2.2rem;
     }
 
-    .animated-welcome {
-        font-size: 2.5rem;
-    }
-
     .intro-description {
         font-size: 1rem;
     }
@@ -343,11 +349,6 @@ html {
 
 .cv-button:hover {
     background-color: #79c0ff;
-}
-
-.project-title {
-    text-transform: capitalize;
-    text-align: center;
 }
 .Projects {
     margin-top: 5rem;
@@ -419,7 +420,7 @@ html {
     margin-top: 0;
 }
 .project-content h {
-    color: #58a6ff;
+    color: #ff0081;
 }
 .project-content img {
     width: 100%;
@@ -563,6 +564,8 @@ html {
     font-weight: bold;
     text-shadow: 0 0 5px black;
     font-family: 'Franklin Gothic Demi', serif;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 .project-description {
