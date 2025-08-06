@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f762654-a38e-4358-bf47-bf5f493c0f54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Covers/Nautilus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Language/BlueprintUE5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/AnneFrank Conversation.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/MarblePuzzler Trailer.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/My Dwarf Mine Trailer.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/Nautilus Gameplay trailer.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/ShortburnGameplayTrailer.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
@@ -22,6 +29,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="307CNpuJuYQfmfUWYEUtPpz27zc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,16 +59,16 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Metaverse Solutions\Website\Videos" />
-      <recent name="D:\Metaverse Solutions\Website\Images" />
-      <recent name="D:\Metaverse Solutions\Website" />
-      <recent name="D:\Portfolio\Covers" />
-      <recent name="D:\Portfolio\ProjectCovers" />
+      <recent name="D:\Metaverse Solutions\Website\Language" />
+      <recent name="D:\Metaverse Solutions\Website\Annefrank" />
+      <recent name="D:\Metaverse Solutions\Website\Covers" />
+      <recent name="D:\Metaverse Solutions\Website\Nautilus" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.27812.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
       </set>
     </attachedChunks>
   </component>
@@ -96,6 +106,11 @@
       <workItem from="1754054982920" duration="25037000" />
       <workItem from="1754097080552" duration="51000" />
       <workItem from="1754259318642" duration="4746000" />
+      <workItem from="1754340215044" duration="2372000" />
+      <workItem from="1754413994223" duration="202000" />
+      <workItem from="1754414242187" duration="9038000" />
+      <workItem from="1754437394575" duration="5746000" />
+      <workItem from="1754486928527" duration="3811000" />
     </task>
     <servers />
   </component>

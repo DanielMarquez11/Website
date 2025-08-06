@@ -77,14 +77,25 @@ html {
 .btn.github {
     background-color: #0d1117;
 }
+.btn.Mail {
+    background-color: #0d1117;
+}
+
+.btn.Mail:hover {
+    background-color: #0042a6;
+}
+
 .btn.github:hover {
     background-color: #0067ff;
 }
 
 .btn.linkedin {
-    background-color: #ffffff;
-    color: #0a66c2;
-    border: 2px solid #0a66c2;
+    background-color: #0067ff;
+    color: #ffffff;
+    border: 2px solid #0d1117;
+}
+.btn.linkedin:hover {
+    background-color: #003c81;
 }
 
 .btn:hover {
@@ -419,38 +430,50 @@ html {
 }
 
 .project[data-project="1"] {
-    background-image: url('Covers/SoulStealersCover.png');
+    background-image: url('Covers/First Voyager Cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .project[data-project="2"] {
-    background-image: url('Covers/Jingle Jam Jamboree Cover.png');
+    background-image: url('Covers/SoulStealersCover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .project[data-project="3"] {
-    background-image: url('Covers/Robo Recall Cover.png');
+    background-image: url('Covers/Jingle Jam Jamboree Cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .project[data-project="4"] {
-    background-image: url('Covers/MyDwarfMineCover.png');
+    background-image: url('Covers/Robo Recall Cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .project[data-project="5"] {
-    background-image: url('Covers/MarblePuzzlerCover.png');
+    background-image: url('Covers/MyDwarfMineCover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .project[data-project="6"] {
-    background-image: url('Covers/AnneFrankCover.png');
+    background-image: url('Covers/MarblePuzzlerCover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project[data-project="7"] {
+    background-image: url('/Covers/AnneFrankCover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project[data-project="8"] {
+    background-image: url('/Covers/Nautilus.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -664,7 +687,7 @@ html {
     font-family: "Bebas Neue", sans-serif;
     font-size: 4.2rem;
 }
-#TeamPhoto {
+.TeamPhoto {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -765,7 +788,7 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
     justify-items: center;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -895,4 +918,10 @@ html {
     object-fit: cover;
     object-position: -30px -30px; /* verplaats het zichtbare deel */
     position: absolute;
+}
+.TimeFrame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
 }
