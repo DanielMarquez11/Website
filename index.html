@@ -14,19 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 </head>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Daniel Marquez Rubio",
-        "jobTitle": "Game Developer",
-        "url": "https://danielmarquezrubio.nl/",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Stellaris Studios"
-        }
-    }
-</script>
 <body>
 <header class="angled-header">
     <div class="nav-content">
@@ -204,8 +191,6 @@
         </div>
         <!--Nautilus-->
     </div>
-
-    <!-- Verborgen project content -->
 
     <div id="project-content-1" class="project-content hidden">
         <h2 class="GameName">First Voyager</h2>
@@ -1004,7 +989,6 @@
             const contentDiv = document.getElementById('project-content-' + id);
             if (contentDiv) {
                 modalText.innerHTML = contentDiv.innerHTML;
-                // Wacht 1 tick zodat de DOM is geüpdatet
                 requestAnimationFrame(() => {
                     const video = modalText.querySelector("video");
                     if (video) {
