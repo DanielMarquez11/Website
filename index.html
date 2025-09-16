@@ -374,40 +374,300 @@
             </div>
         </div>
     </div>
-    <div id="project-content-3" class="project-content hidden">
-        <div class="snow-overlay">
-        <h2 class="GameName">Jingle Jam Jamboree</h2>
+
+    <!-- Modal / popup element -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal" class="close-btn">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+    <div id="contact-modal" class="contact-modal">
+        <div class="modal-content">
+            <div class="Contact-Tab">
+            <a href="#" class="close-btn">&times;</a>
+            <h2 id="ContactFormula">Contact Form</h2>
+            <div class="ContactFormula-Info">
+                <p>I Love to hear from you,<br> whatever it is we can have a chat about it.</p>
+                <h3>Contact Info</h3>
+                <i class="fas fa-envelope" style="color: #00c3ff"></i>
+                <a id="Mail" href="mailto: marquezdaniel085@gmail.com">marquezdaniel085@gmail.com</a> <br>
+            </div>
+            </div>
+            <form class="ContactForm" action="https://formspree.io/f/xwpqbrey" method="POST">
+                <label class="FullName">
+                    Full Name*
+                    <input type="text" name="FullName" maxlength="25" required style="background-color: #79c0ff; accent-color:#79c0ff" placeholder="Full Name">
+                </label>
+                <label class="DiscordName"> Discord Name*
+                    <input type="text" name="email" placeholder="Discord Name" required style="background-color: #79c0ff; accent-color:#79c0ff">
+                </label>
+                <label class="Message">Your message:
+                    <textarea class="TextAreaMessage" lang="en" required placeholder="Hey you can type your message here." cols="40" style="background-color: #79c0ff; accent-color: #78bffd" name="message"></textarea>
+                </label>
+                <button class="Button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="InternShips" class="Internships">
+    <div class="Project-Title">
+        <h1 class="Projects-Name styled-intro">Internships</h1>
+    </div>
+    <div class="projects-grid styled-intro">
+        <!--First Voyager-->
+        <div class="project" data-project="1">
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('/Covers/First Voyager Cover.png');">
+                    <div class="overlay">
+                        <h3 class="project-title">Metaverse Solutions BV</h3>
+                        <p class="project-description">3D Platformer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="badge-container overlay-text">
+                <span class="text-box" style="background-color: #ff9300; min-width: 160px;">Unreal Engine 5</span>
+                <span class="text-box" style="background-color: #79c0ff">Team</span>
+                <span class="text-box" style="background-color: #00ff59; min-width: 120px;">Best project</span>
+            </div>
+        </div>
+        <!--First Voyager-->
+        <!--Soul Stealers-->
+        <div class="project" data-project="2">
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('Covers/SoulStealersCover.png');">
+                    <div class="overlay">
+                        <h3 class="project-title">SENSIKS</h3>
+                        <p class="project-description">Exchange Finland Project 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="badge-container overlay-text">
+                <span class="text-box" style="background-color: #48ff40">Unity</span>
+                <span class="text-box" style="background-color: #79c0ff">Team</span>
+                <span class="text-box" style="background-color: #ff7100">Exchange</span>
+            </div>
+        </div>
+        <!--Soul Stealers-->
+    </div>
+
+    <div id="project-content-9" class="project-content hidden">
+        <h2 class="GameName">First Voyager</h2>
         <div class="GameplayVideo">
             <video class="videos" width="840" height="560" controls>
-                <source src="Videos/JingleJamGameplayTrailer.mp4" type="video/mp4">
+                <source src="Videos/ShortburnGameplayTrailer.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
         <h3 class="GameName">About the Game</h3>
-        <p class="GameName-Description">Get ready to immerse yourself in the excitement of a festive Christmas game! Assume the role of Santa Claus and participate in a lively competition against other players,
-            equipped with an array of unique weapons .
-            The challenge is on to see who can be crowned the ultimate Kris Kringle.
-            It's a cheerful clash of Santas, and the victory awaits the jolliest participant.
-            Who the winner will be is up to you to decide!</p>
+        <p class="GameName-Description">The First Voyager is a 3D third-person platformer set in space, developed in Unreal Engine 5 using C++ and Blueprints.
+            It's a game me and a couple have friends have been working on for the past couple of months.</p>
         <h3 class="GameName"> What did I work on </h3>
-        <p class="GameName-Description">I was responsible for designing and implementing the entire multiplayer system,
-            enabling players to seamlessly see and interact with each other in real-time. I also developed splitscreen functionality,
-            allowing players to engage in competitive shooting gameplay within the same session. In addition, I optimized core game systems to enhance overall performance and ensure smooth gameplay.
-            To support collaborative development, I managed version control with Git, overseeing branching, merging, and team code integration.</p>
+        <p class="GameName-Description">Programmed Enemy AI and created the main boss fight. <br>
+            Designed and implemented multiple special effects, including:
+            Explosion, Jetpack Flame, Falling Rocks <br>
+            Hit, Hurt & Enemy Hurt effects <br>
+            Heal, Magnetic Pull, Crystal Spikes, and Wind Dash <br>
+            All systems were developed with a strong focus on visual feedback and player experience.</p>
+        <div class="Screenshots">
+            <img src="/First%20Voyager/Screenshot1.png" alt="">
+            <img src="/First%20Voyager/Screenshot2.png" alt="">
+            <img src="/First%20Voyager/Screenshot3.png" alt="">
+            <img src="/First%20Voyager/Screenshot4.png" alt="">
+        </div>
+        <div class="Team">
+            <h3>Team</h3>
+            <img class="TeamPhoto" src="/First%20Voyager/Logo4.jpg" alt="">
+        </div>
+        <div class="Team-info">
+            <div class="info-column">
+                <strong>Engine</strong>
+                <div class="Engine-Info">
+                    <img src="/Engine/Unreal%20Engine%20Logo.png" alt="Unreal" class="Engine-Logo"/>
+                </div>
+                <br>
+            </div>
+            <div class="info-column">
+                <strong>Language</strong>
+                <div class="Language-Info">
+                    <img src="/Language/c++.jpg" alt="C++" class="profile-icon"/>
+                </div>
+                <br>
+                <div class="Language-Info">
+                    <img src="/Language/BlueprintUE5.png" alt="Blueprint" class="profile-icon"/>
+                </div>
+            </div>
+            <div class="info-column">
+                <strong>Game Programmers</strong>
+                <div class="team-member">
+                    <img src="/Images/Selfie_tenerife.jpg" alt="Daniel" class="profile-icon"/>
+                    <span class="member-name TeamNames-Info"><a>Daniel Marquez Rubio</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="/JingleJamJamboree/Milan%20Logo.png" alt="Milan" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://www.milankruissen.com/" target="_blank">Milan Kruissen</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="/JingleJamJamboree/Pedro%20logo.jpg" alt="Pedro" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://www.pedrodormits.com/" target="_blank">Pedro Louis Dormits</a></span>
+                </div>
+                <br>
+            </div>
+            <div class="info-column">
+                <strong>Artists</strong>
+                <div class="team-member">
+                    <img src="Portrait_Placeholder.png" alt="Brandon" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://brendanstakenburg.artstation.com/" target="_blank">Brendan Stakenburg</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="/Annefrank/Daniel%20Taki%20Logo.jpg" alt="Daniel Taki" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://danieltaki.artstation.com/" target="_blank">Daniel Taki</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="/First%20Voyager/Stijn%20bakker%20Logo.jpg" alt="Stijn" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://artsystoneb.artstation.com/" target="_blank">Stijn Bakker</a></span>
+                </div>
+            </div>
+            <div class="info-column">
+                <strong>Time Frame</strong>
+                <div class="cropped-circle">
+                    <img src="/TimeFrame/8weeks.webp" alt="Gecropte foto">
+                </div>
+                <h3 class="TimeFrame">Weeks</h3>
+            </div>
+        </div>
+    </div>
+    <div id="project-content-10" class="project-content hidden">
+        <h2 class="GameName">Soul Stealers</h2>
+        <div class="GameplayVideo">
+            <video class="videos" width="840" height="560" controls>
+                <source src="Videos/Soul%20Stealer%20Trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <a href="https://weakluck.itch.io/soul-stealer" class="btn itch-io" target="_blank" rel="noopener">
+                <i class="fab fa-itch-io"></i>
+                <span>Play now on Itch IO</span>
+            </a>
+        </div>
+        <h3 class="GameName">About the Game</h3>
+        <p class="GameName-Description">Haunt. Hunt. Evolve.
+            Step into the role of a restless spirit on a mission to become the most feared ghost in existence. In Soul Stealer, you’ll sneak, scare, and outsmart waves of increasingly determined humans trying to banish you for good.
+
+            Each round grows harder — but so do you. Choose powerful upgrades after every wave to enhance your ghostly powers, from terrifying speed to spectral tricks that turn the tide in your favor. Strategy and timing are key if you want to survive... and dominate.
+
+            Play instantly on itch.io, right in your browser. No downloads. Just pure, haunting action.</p>
+        <h3 class="GameName"> What did I work on </h3>
+        <p class="GameName-Description"> I was responsible for designing and implementing the AI systems for all character types. I also developed the logic for character behavior randomization, ensuring each encounter felt dynamic and unique.</p>
+        <div class="Screenshots">
+            <img src="/SoulStealers/GifSoulStealers.gif" alt="">
+            <img src="/SoulStealers/Soulstealers1.png" alt="">
+            <img src="/SoulStealers/Soulstealers2.png" alt="">
+            <img src="/SoulStealers/Soulstealers3.png" alt="">
+            <img src="/SoulStealers/Soulstealers4.png" alt="">
+            <img src="/SoulStealers/Soulstealers5.png" alt="">
+        </div>
+        <div class="Team">
+            <h3>Team</h3>
+            <img class="TeamPhoto" src="/SoulStealers/TeamFoto.jpg" alt="">
+        </div>
+        <div class="Team-info">
+            <div class="info-column">
+                <strong>Engine</strong>
+                <div class="Engine-Info">
+                    <img src="/Engine/Unity%20Logo.png" alt="Unity" class="Engine-Logo"/>
+                </div>
+                <br>
+            </div>
+            <div class="info-column">
+                <strong>Language</strong>
+                <div class="Language-Info">
+                    <img src="/Language/Logo_C_sharp.png" alt="C#" class="profile-icon"/>
+                </div>
+                <br>
+            </div>
+            <div class="info-column">
+                <strong>Game Programmers</strong>
+                <div class="team-member">
+                    <img src="/Images/Selfie_tenerife.jpg" alt="Daniel" class="profile-icon"/>
+                    <span class="member-name TeamNames-Info"><a>Daniel Marquez Rubio</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="/SoulStealers/Tommi%20Logo.jpeg" alt="Tommi" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://immot.itch.io/" target="_blank">Tommi Kivikangas</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="/SoulStealers/Thomas%20Logo.jpeg" alt="Thomas" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://sites.google.com/view/thomascraaijo/homepage" target="_blank">Thomas Craaijo</a></span>
+                </div>
+                <br>
+            </div>
+            <div class="info-column">
+                <strong>Artists</strong>
+                <div class="team-member">
+                    <img src="/SoulStealers/Patrick%20Logo.jpg" alt="Patrick" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://www.artstation.com/patrick_van_der_steen" target="_blank">Patrick van der Steen</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="Portrait_Placeholder.png" alt="Irina" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://cheirisham.artstation.com/" target="_blank">Irina Chernetskaja</a></span>
+                </div>
+                <br>
+                <div class="team-member">
+                    <img src="/SoulStealers/Lalo%20Logo.jpg" alt="Lalo" class="profile-icon" />
+                    <span class="member-name TeamNames-Info"><a href="https://lalo_jacobs.artstation.com/" target="_blank">Lalo Jacobs</a></span>
+                </div>
+            </div>
+            <div class="info-column">
+                <strong>Time Frame</strong>
+                <div class="cropped-circle">
+                    <img src="/TimeFrame/8weeks.webp" alt="Gecropte foto">
+                </div>
+                <h3 class="TimeFrame">Weeks</h3>
+            </div>
+        </div>
+    </div>
+    <div id="project-content-3" class="project-content hidden">
+        <div class="snow-overlay">
+            <h2 class="GameName">Jingle Jam Jamboree</h2>
+            <div class="GameplayVideo">
+                <video class="videos" width="840" height="560" controls>
+                    <source src="Videos/JingleJamGameplayTrailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h3 class="GameName">About the Game</h3>
+            <p class="GameName-Description">Get ready to immerse yourself in the excitement of a festive Christmas game! Assume the role of Santa Claus and participate in a lively competition against other players,
+                equipped with an array of unique weapons .
+                The challenge is on to see who can be crowned the ultimate Kris Kringle.
+                It's a cheerful clash of Santas, and the victory awaits the jolliest participant.
+                Who the winner will be is up to you to decide!</p>
+            <h3 class="GameName"> What did I work on </h3>
+            <p class="GameName-Description">I was responsible for designing and implementing the entire multiplayer system,
+                enabling players to seamlessly see and interact with each other in real-time. I also developed splitscreen functionality,
+                allowing players to engage in competitive shooting gameplay within the same session. In addition, I optimized core game systems to enhance overall performance and ensure smooth gameplay.
+                To support collaborative development, I managed version control with Git, overseeing branching, merging, and team code integration.</p>
             <div class="SeeCodeButton">
                 <a href="https://github.com/DanielMarquez11/Portfolio/tree/Master/Jingle%20Jam%20Jamboree" class="btn github" target="_blank" rel="noopener">
                     <i class="fab fa-github"></i>
                     <span>View my Code</span>
                 </a>
             </div>
-        <div class="Screenshots">
-            <img src="/JingleJamJamboree/JingleJamJamboree2.png" alt="">
-            <img src="/JingleJamJamboree/JingleJamJamboree3.png" alt="">
-        </div>
-        <div class="Team">
-            <h3>Team</h3>
-            <img class="TeamPhoto" src="/JingleJamJamboree/JingleJamGameplay1.gif" alt="">
-        </div>
+            <div class="Screenshots">
+                <img src="/JingleJamJamboree/JingleJamJamboree2.png" alt="">
+                <img src="/JingleJamJamboree/JingleJamJamboree3.png" alt="">
+            </div>
+            <div class="Team">
+                <h3>Team</h3>
+                <img class="TeamPhoto" src="/JingleJamJamboree/JingleJamGameplay1.gif" alt="">
+            </div>
             <div class="Team-info">
                 <div class="info-column">
                     <strong>Engine</strong>
@@ -885,42 +1145,6 @@
                 </div>
                 <h3 class="TimeFrame">Weeks</h3>
             </div>
-        </div>
-    </div>
-
-
-    <!-- Modal / popup element -->
-    <div id="modal" class="modal hidden">
-        <div class="modal-content">
-            <span id="close-modal" class="close-btn">&times;</span>
-            <div id="modal-text"></div>
-        </div>
-    </div>
-    <div id="contact-modal" class="contact-modal">
-        <div class="modal-content">
-            <div class="Contact-Tab">
-            <a href="#" class="close-btn">&times;</a>
-            <h2 id="ContactFormula">Contact Form</h2>
-            <div class="ContactFormula-Info">
-                <p>I Love to hear from you,<br> whatever it is we can have a chat about it.</p>
-                <h3>Contact Info</h3>
-                <i class="fas fa-envelope" style="color: #00c3ff"></i>
-                <a id="Mail" href="mailto: marquezdaniel085@gmail.com">marquezdaniel085@gmail.com</a> <br>
-            </div>
-            </div>
-            <form class="ContactForm" action="https://formspree.io/f/xwpqbrey" method="POST">
-                <label class="FullName">
-                    Full Name*
-                    <input type="text" name="FullName" maxlength="25" required style="background-color: #79c0ff; accent-color:#79c0ff" placeholder="Full Name">
-                </label>
-                <label class="DiscordName"> Discord Name*
-                    <input type="text" name="email" placeholder="Discord Name" required style="background-color: #79c0ff; accent-color:#79c0ff">
-                </label>
-                <label class="Message">Your message:
-                    <textarea class="TextAreaMessage" lang="en" required placeholder="Hey you can type your message here." cols="40" style="background-color: #79c0ff; accent-color: #78bffd" name="message"></textarea>
-                </label>
-                <button class="Button" type="submit">Send</button>
-            </form>
         </div>
     </div>
 </section>
