@@ -479,6 +479,12 @@ html {
     background-position: center;
     background-repeat: no-repeat;
 }
+.project[data-project="9"] {
+    background-image: url('PlanetZ/PlanetZ HomePage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .project {
     position: relative;
