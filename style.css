@@ -1297,7 +1297,7 @@ input[type="radio"] { display: none; }
         margin: 0;
         padding: 10rem 2rem;
         position: relative;
-        height: 110vh;
+        height: 140vh;
         background: #070a10;
     }
     .title {
@@ -1325,7 +1325,6 @@ input[type="radio"] { display: none; }
         margin-top: 1rem;
 
     }
-
     .experience h3{
         position: relative;
         font-size: 3rem;
@@ -1355,7 +1354,7 @@ input[type="radio"] { display: none; }
     }
     .canvas-image img{
         position: absolute;
-        top: 85%;
+        top: 60%;
         right: 0;
         left: 0;
         bottom: 0;
