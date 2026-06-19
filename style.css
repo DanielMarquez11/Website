@@ -609,7 +609,7 @@ input[name="project"] { display: none; }
     border: 4px solid rgb(255, 122, 0);
     width: 760px;
     height: 420px;
-    margin-left: 37rem;
+    margin-left: 43%;
     margin-top: -28rem;
 }
 
@@ -1130,7 +1130,7 @@ input[type="radio"] { display: none; }
 }
 
 /*phones*/
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
 
     body, html {
         background: #0b0d13;
@@ -1154,7 +1154,7 @@ input[type="radio"] { display: none; }
 
     .hero {
         position: relative;
-        height: 70vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1166,7 +1166,7 @@ input[type="radio"] { display: none; }
 
     .scroll-down {
         position: absolute;
-        bottom: 7rem;
+        bottom: 9rem;
         left: 50%;
         transform: translateX(-50%);
         color: #ff9a3c;
@@ -1297,7 +1297,7 @@ input[type="radio"] { display: none; }
         margin: 0;
         padding: 10rem 2rem;
         position: relative;
-        height: 100vh;
+        height: 110vh;
         background: #070a10;
     }
     .title {
@@ -1355,7 +1355,7 @@ input[type="radio"] { display: none; }
     }
     .canvas-image img{
         position: absolute;
-        top: 85%;
+        top: 75%;
         right: 0;
         left: 0;
         bottom: 0;
@@ -1384,7 +1384,7 @@ input[type="radio"] { display: none; }
         font-family: monospace;
         font-weight: 700;
         margin-bottom: 0.5rem;
-        padding-top: 10rem;
+        padding-top: 7rem;
     }
 
     .skills-container {
