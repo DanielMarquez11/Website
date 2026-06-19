@@ -1166,7 +1166,7 @@ input[type="radio"] { display: none; }
 
     .scroll-down {
         position: absolute;
-        bottom: 13rem;
+        bottom: 10rem;
         left: 50%;
         transform: translateX(-50%);
         color: #ff9a3c;
