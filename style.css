@@ -1154,7 +1154,7 @@ input[type="radio"] { display: none; }
 
     .hero {
         position: relative;
-        height: 90vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1166,7 +1166,7 @@ input[type="radio"] { display: none; }
 
     .scroll-down {
         position: absolute;
-        bottom: 10rem;
+        bottom: 7rem;
         left: 50%;
         transform: translateX(-50%);
         color: #ff9a3c;
