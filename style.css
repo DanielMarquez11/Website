@@ -1355,7 +1355,7 @@ input[type="radio"] { display: none; }
     }
     .canvas-image img{
         position: absolute;
-        top: 75%;
+        top: 85%;
         right: 0;
         left: 0;
         bottom: 0;
