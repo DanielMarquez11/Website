@@ -4,111 +4,185 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f762654-a38e-4358-bf47-bf5f493c0f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PlanetZ/MilanKruissenLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1b476e49-703f-464d-906a-28917b6f83ea" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="43" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="8.72218380456281E-296" />
+      <entry key="S2" value="2.892130888425571E-74" />
+      <entry key="S5" value="6.047509402286555E-30" />
+      <entry key="S10" value="3.991384429065387E-15" />
+      <entry key="S30" value="4.091999321073674E-5" />
+      <entry key="S60" value="0.01491310244856499" />
+      <entry key="M2" value="0.29508689818366884" />
+      <entry key="M5" value="1.7922708056306582" />
+      <entry key="M10" value="3.2774051536380036" />
+      <entry key="M15" value="4.009214067786468" />
+      <entry key="M30" value="5.091254313605606" />
+      <entry key="H1" value="10.12440067419384" />
+      <entry key="H2" value="35.21510947935325" />
+      <entry key="H4" value="114.61180797650665" />
+      <entry key="D1" value="1318.1634376846127" />
+      <entry key="W1" value="3388.82860615295" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000000009" />
+      <entry key="S30" value="1.0000180557193317" />
+      <entry key="S60" value="1.0082139580145026" />
+      <entry key="M2" value="1.1798446755572802" />
+      <entry key="M5" value="2.1545793848747667" />
+      <entry key="M10" value="3.148411998318221" />
+      <entry key="M15" value="3.6428861128283554" />
+      <entry key="M30" value="4.265755917115079" />
+      <entry key="H1" value="4.968754552140252" />
+      <entry key="H2" value="8.747551100985461" />
+      <entry key="H4" value="29.238033299537797" />
+      <entry key="D1" value="327.2525146139386" />
+      <entry key="W1" value="791.538358111236" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0030225878780124806" />
+      <entry key="MS500" value="0.3133832551101726" />
+      <entry key="S2" value="0.7482021413542731" />
+      <entry key="S5" value="0.8904459823292842" />
+      <entry key="S10" value="0.9436344537633696" />
+      <entry key="S30" value="0.9809051959668564" />
+      <entry key="S60" value="1.0133352483790132" />
+      <entry key="M2" value="1.468285907492323" />
+      <entry key="M5" value="3.9402749275723847" />
+      <entry key="M10" value="6.4205412433924485" />
+      <entry key="M15" value="7.64792412508503" />
+      <entry key="M30" value="9.354453475368064" />
+      <entry key="H1" value="15.090942724618895" />
+      <entry key="H2" value="43.95872093777434" />
+      <entry key="H4" value="143.84207523437368" />
+      <entry key="D1" value="1645.3967434250453" />
+      <entry key="W1" value="4180.360006973163" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="307CNpuJuYQfmfUWYEUtPpz27zc" />
+  <component name="ProjectId" id="3Eiu9FNybCKNfs38gm1hY8fAkIN" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Master&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marqu/Desktop/Sensiks/Website&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Portfolio/Assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Portfolio\Images" />
+      <recent name="C:\Portfolio\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Metaverse Solutions\Website\PlanetZ" />
-      <recent name="D:\Metaverse Solutions\Website\Videos" />
-      <recent name="D:\Metaverse Solutions\Website\Language" />
-      <recent name="D:\Metaverse Solutions\Website\Annefrank" />
-      <recent name="D:\Metaverse Solutions\Website\Covers" />
+      <recent name="C:\Portfolio\Assets" />
+      <recent name="C:\Portfolio" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="generated-requests | #1" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8f762654-a38e-4358-bf47-bf5f493c0f54" name="Changes" comment="" />
-      <created>1752969186810</created>
+      <changelist id="1b476e49-703f-464d-906a-28917b6f83ea" name="Changes" comment="" />
+      <created>1780673557431</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1752969186810</updated>
-      <workItem from="1752969189378" duration="5669000" />
-      <workItem from="1753023460194" duration="8464000" />
-      <workItem from="1753209568102" duration="3294000" />
-      <workItem from="1753225252265" duration="7658000" />
-      <workItem from="1753275049967" duration="7619000" />
-      <workItem from="1753284507185" duration="841000" />
-      <workItem from="1753310759168" duration="1205000" />
-      <workItem from="1753312001147" duration="8079000" />
-      <workItem from="1753360414915" duration="1218000" />
-      <workItem from="1753397628069" duration="2694000" />
-      <workItem from="1753458140619" duration="1261000" />
-      <workItem from="1753476644871" duration="3149000" />
-      <workItem from="1753486323288" duration="4370000" />
-      <workItem from="1753707364640" duration="5476000" />
-      <workItem from="1753714106519" duration="739000" />
-      <workItem from="1753717862626" duration="18505000" />
-      <workItem from="1753795190324" duration="7203000" />
-      <workItem from="1753908309828" duration="1351000" />
-      <workItem from="1753967273321" duration="4602000" />
-      <workItem from="1753983065545" duration="10965000" />
-      <workItem from="1754006167924" duration="575000" />
-      <workItem from="1754006748868" duration="28000" />
-      <workItem from="1754007262987" duration="68000" />
-      <workItem from="1754007418040" duration="1761000" />
-      <workItem from="1754054982920" duration="25037000" />
-      <workItem from="1754097080552" duration="51000" />
-      <workItem from="1754259318642" duration="4746000" />
-      <workItem from="1754340215044" duration="2372000" />
-      <workItem from="1754413994223" duration="202000" />
-      <workItem from="1754414242187" duration="9038000" />
-      <workItem from="1754437394575" duration="5746000" />
-      <workItem from="1754486928527" duration="10119000" />
-      <workItem from="1754595640578" duration="1603000" />
-      <workItem from="1756739425709" duration="847000" />
-      <workItem from="1768901724611" duration="806000" />
+      <updated>1780673557431</updated>
+      <workItem from="1780673558477" duration="16671000" />
+      <workItem from="1780744564103" duration="2657000" />
+      <workItem from="1780765249685" duration="5385000" />
+      <workItem from="1780786418520" duration="4667000" />
+      <workItem from="1780791436794" duration="6292000" />
+      <workItem from="1780828059875" duration="19963000" />
+      <workItem from="1780873869389" duration="8504000" />
+      <workItem from="1780932483732" duration="1640000" />
+      <workItem from="1780956979395" duration="11326000" />
+      <workItem from="1781013917477" duration="2727000" />
+      <workItem from="1781270190562" duration="11775000" />
+      <workItem from="1781302497577" duration="84000" />
+      <workItem from="1781356335287" duration="24378000" />
+      <workItem from="1781531667422" duration="13224000" />
+      <workItem from="1781614926916" duration="13015000" />
+      <workItem from="1781650322559" duration="5776000" />
+      <workItem from="1781714080405" duration="13160000" />
+      <workItem from="1781795218398" duration="2149000" />
+      <workItem from="1781812304074" duration="5938000" />
+      <workItem from="1781829047676" duration="347000" />
     </task>
     <servers />
   </component>

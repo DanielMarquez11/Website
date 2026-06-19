@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../Styling/style.css">
+    <link rel="stylesheet" href="../Styling/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css">
+    <title>Game Developer</title>
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar">
+<div id="logo">
+    <a href="#home">Daniel</a>
+</div>
+    <div id="links">
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#projects-tab">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+<!--NAVBAR-->
+<!--HERO-->
+<div class="hero" id="home">
+    <div class="grid-overlay"></div>
+    <div class="falling-lines"></div>
+    <div class="badge">Game Developer</div>
+    <h1 class="name"><span class="accent">Daniel</span></h1>
+    <h1 class="name">MARQUEZ RUBIO</h1>
+    <p class="quote">Less talking. <span style="color: #ff9a3c">More shipping.</span></p>
+    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+        <div class="view-work-wrap" style="display: flex; gap: 1rem;">
+            <a class="view-work" href="#projects-tab">View Work</a>
+        </div>
+        <a class="contact-me" href="#contact">Contact Me</a>
+    </div>
+    <a href="#About" class="scroll-down">
+        <i class="fa-solid fa-chevron-down"></i>
+    </a>
+</div>
+<!--HERO-->
+<!--ABOUT ME-->
+<div class="about-me" id="About">
+    <div class="title">
+        <h2 style="color: #ff9a3c">01.</h2>
+        <h2>About Me</h2>
+    </div>
+    <p class="info">
+        I'm Daniel, <span style="color: #ff9a3c">22</span> a developer who gets pulled toward the hard problems.
+        <span style="color: #ff9a3c">Multiplayer systems</span>, <span style="color: #ff9a3c">AI</span>, <span style="color: #ff9a3c">gameplay mechanics</span>. The kind of stuff that breaks
+        in ways you don't expect and teaches you the most when it does.
+
+        It started with <b style="color: #ff9a3c">Unreal Engine 3</b>, no tutorial, no plan. That curiosity
+        turned into shipped titles and never really stopped.
+
+        Outside the building I'm usually playing Rocket League. Not just because
+        it's fun but because nothing teaches you what tight design feels like
+        faster than a game that punishes every lazy decision.
+    </p>
+    <div class="project-info">
+        <div class="experience">
+            <h3>4<span style="font-size: 25px">+</span></h3>
+            <p>YEARS EXP</p>
+        </div>
+            <div class="games-shipped">
+            <h3>2<span style="font-size: 25px">+</span></h3>
+            <p>PROJECTS SHIPPED</p>
+            </div>
+    </div>
+    <div class="canvas-image">
+        <img src="/Assets/ProfilePicture.jpeg" alt="">
+    </div>
+</div>
+<!--ABOUT ME-->
+<!--SKILLS-->
+<div class="skills" id="Skills">
+    <div class="title-skills">
+        <h2 style="color: #ff9a3c">02.</h2>
+        <h2>Skills</h2>
+    </div>
+    <div class="skills-container">
+            <div class="card">
+                <div class="card-corner"></div>
+                <i class="devicon-unrealengine-original-wordmark"></i>
+            </div>
+            <div class="card">
+                <div class="card-corner"></div>
+                <i class="devicon-unity-plain-wordmark"></i>
+            </div>
+        <div class="card">
+            <div class="card-corner"></div>
+            <i class="devicon-csharp-line"></i>
+        </div>
+        <div class="card">
+        <div class="card-corner"></div>
+        <i class="devicon-github-original-wordmark"></i>
+        </div>
+        <div class="card">
+            <div class="card-corner"></div>
+            <i class="devicon-cplusplus-plain-wordmark"></i>
+        </div>
+        <div class="card">
+            <div class="card-corner"></div>
+            <i class="devicon-trello-plain-wordmark"></i>
+        </div>
+        <div class="card">
+            <div class="card-corner"></div>
+            <i class="devicon-html5-plain-wordmark"></i>
+        </div>
+        <div class="card">
+            <div class="card-corner"></div>
+            <i class="devicon-css3-plain-wordmark"></i>
+        </div>
+    </div>
+</div>
+<!--SKILLS-->
+<!--PROJECTS-->
+<div id="projects-tab">
+    <div id="project-title">
+        <h2 style="color: #ff9a3c">03.</h2>
+        <h2>Recent Deploys</h2>
+    </div>
+    <div class="divider"></div>
+    <template id="project-template">
+        <div class="panel">
+            <img class="t-image" style="opacity: 10%" alt="">
+            <span class="Category t-category"></span>
+            <h2 class="t-title"></h2>
+            <p class="description t-description"></p>
+            <h4 class="Category-Engine">Engine</h4>
+            <p class="Engine t-engine"></p>
+            <h4 class="Category-devtime">Dev Time</h4>
+            <p class="time t-devtime"></p>
+            <div class="categories-container t-tags"></div>
+            <button type="button" class="open-project t-open">
+                Open Project <i class="fa fa-play playbutton"></i>
+            </button>
+        </div>
+    </template>
+
+    <div id="projects-container"></div>
+</div>
+<!--PROJECTS-->
+<!--CONTACT-->
+<footer class="contact" id="contact">
+    <div class="footer-left">
+        <div class="logo"><a href="#home">Daniel</a></div>
+        <p class="tagline">Less talking. <span>More shipping.</span></p>
+    </div>
+    <span class="reserved">© 2026 Daniel Marquez Rubio. All rights reserved.</span>
+    <div class="socials">
+        <a class="social" target="_blank" href="https://github.com/DanielMarquez11">
+            <i class="devicon-github-original"></i>
+        </a>
+        <a class="social" target="_blank" href="https://www.linkedin.com/in/daniel-marquez-rubio-702baa290/?locale=en">
+            <i class="devicon-linkedin-plain"></i>
+        </a>
+    </div>
+</footer>
+<!--CONTACT-->
+<script>
+    const projects = [
+        {
+            id: "proj-1",
+            listSubtitle: "Horror / Multiplayer",
+            image: "/Assets/PlanetZHomePage.png",
+            category: "Horror / Multiplayer",
+            title: "Untitled Project",
+            description: "Ongoing co-op horror game.",
+            engine: "Unreal Engine 5",
+            devTime: "4 months",
+            genre: "Horror",
+            tags: ["Multiplayer", "C++", "Horror", "Co-Op"],
+            screenshots: [
+                "/Assets/Gameplay.png",
+                "/Assets/Gameplay1.png",
+                "/Assets/Gameplay2.png",
+                "/Assets/Gameplay3.png",
+                "/Assets/Gameplay4.png",
+                "/Assets/Gameplay5.png",
+                "/Assets/PlanetZHomePage.png",
+            ],
+            trailer: "/Videos/Trailer.mp4",
+            // github: "https://github.com/repos",
+            modalDescription: "This is an ongoing project that im currently developing with a good friend of mine. " +
+                "We are creating a co-op horror game in Unreal Engine 5,focussing on both on atmosphere and multiplayer gameplay." +
+                " I am responsible for AI and the multiplayer part, Where he is focussing on all the art and most of the gameplay systems.",
+        },
+        {
+            id: "proj-2",
+            listSubtitle: "PVP / Multiplayer",
+            image: "/Assets/JingleJamJamboree/JingleJamJamboree2.png",
+            category: "Christmas / Multiplayer",
+            title: "Jingle Jam Jamboree",
+            description: "Multiplay Christmas game to play with friends.",
+            engine: "Unity 5",
+            devTime: "2 months",
+            genre: "SplitScreen",
+            tags: ["C#", "Shooting", "Santa", "Multiplayer"],
+            screenshots: [
+                "/Assets/jingleJamJamboree/JingleJamJamboree2.png",
+                "/Assets/jingleJamJamboree/JingleJamJamboree3.png",
+                "/Assets/jingleJamJamboree/JingleJamGameplay1.gif",
+            ],
+            trailer: "/Videos/JingleJamGameplayTrailer.mp4",
+            github: "https://github.com/DanielMarquez11/Portfolio/tree/Master/Jingle%20Jam%20Jamboree",
+            modalDescription: "Get ready to immerse yourself in the excitement of a festive Christmas game!" +
+                " Assume the role of Santa Claus and participate in a lively competition against other players," +
+                " equipped with an array of unique weapons . The challenge is on to see who can be crowned the ultimate Kris Kringle." +
+                " It's a cheerful clash of Santas, and the victory awaits the jolliest participant.",
+        },
+        {
+            id: "proj-3",
+            listSubtitle: "Singleplayer",
+            image: "/Assets/Nautilus.png",
+            category: "Shmup / 2.5D",
+            title: "Nautilus",
+            description: "players pilot a high-tech submarine through ocean depths, battling epic creatures.",
+            engine: "Unity 5",
+            devTime: "1 month",
+            genre: "Shmup",
+            tags: ["AI", "Unity", "C#", "Singleplayer"],
+            screenshots: [
+                "/Assets/Screenshot1.png",
+                "/Assets/Screenshot2.png",
+                "/Assets/Nautilus.png",
+            ],
+            trailer: "/Videos/Nautilustrailer.mp4",
+            github: "https://github.com/DanielMarquez11/Portfolio/tree/Master/Nautilus",
+            modalDescription: "In Nautilus, a visually stunning blend of 3D with a 2D view, players pilot a high-tech submarine through ocean depths," +
+                "battling epic creatures. A trailing jellyfish delivers an electrifying shock on impact, temporarily slowing the player." +
+                " This project stands out as a creative peak," +
+                " combining technical excellence with sheer enjoyment.",
+        },
+        {
+            id: "proj-4",
+            listSubtitle: "Haunt / Exchange",
+            image: "/Assets/SoulStealersCover.png",
+            category: "Haunt / Exchange",
+            title: "Soul Stealers",
+            description: "This project was made with student from finland this was one of my greatest projects ever.",
+            engine: "Unity 5",
+            devTime: "2 month",
+            genre: "Survival",
+            tags: ["AI", "Unity", "Survival", "Stealth"],
+            screenshots: [
+                "/Assets/GifSoulStealers.gif",
+                "/Assets/SoulStealers1.png",
+                "/Assets/SoulStealers2.png",
+                "/Assets/SoulStealers4.png",
+                "/Assets/SoulStealers5.png",
+            ],
+            trailer: "/Videos/SoulStealerTrailer.mp4",
+            github: "https://github.com/DanielMarquez11/Portfolio/tree/Master/SoulStealer",
+            modalDescription: "Unwanted guests have invaded your home! Show those intruders who’s the boss by unleashing your terrifying screams! You’ll scare them to death!   ",
+        },
+
+    ];
+
+    function initSlider(dialog) {
+        const slides = dialog.querySelectorAll('.slide');
+        const dots = dialog.querySelectorAll('.dot');
+        if (!slides.length) return;
+        let current = 0;
+        const total = slides.length;
+
+        function goTo(index) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = (index + total) % total;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+        }
+
+        dialog.querySelector('.next').onclick = () => goTo(current + 1);
+        dialog.querySelector('.prev').onclick = () => goTo(current - 1);
+        dots.forEach((dot, i) => dot.onclick = () => goTo(i));
+
+        // Tab button active state
+        const labels = dialog.querySelectorAll('.buttons label');
+        const radios = dialog.querySelectorAll('input[type="radio"]');
+
+        function updateLabels() {
+            radios.forEach((r, i) => {
+                labels[i].classList.toggle('active-tab', r.checked);
+            });
+        }
+
+        radios.forEach(r => r.addEventListener('change', updateLabels));
+        updateLabels();
+        const autoPlay = setInterval(() => goTo(current + 1), 3000);
+
+        dialog.querySelector('.next').onclick = () => { clearInterval(autoPlay); goTo(current + 1); };
+        dialog.querySelector('.prev').onclick = () => { clearInterval(autoPlay); goTo(current - 1); };
+        dots.forEach((dot, i) => dot.onclick = () => { clearInterval(autoPlay); goTo(i); });
+    }
+
+    function renderProjects() {
+        const container = document.getElementById('projects-container');
+        const template = document.getElementById('project-template');
+
+        // Maak .projects wrapper met list + preview
+        const wrapper = document.createElement('div');
+        wrapper.className = 'projects';
+
+        const listEl = document.createElement('div');
+        listEl.className = 'list';
+
+        const previewEl = document.createElement('div');
+        previewEl.className = 'preview';
+
+        wrapper.appendChild(listEl);
+        wrapper.appendChild(previewEl);
+        container.appendChild(wrapper);
+
+        projects.forEach((p, i) => {
+            // Radio
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.name = 'project';
+            radio.id = `p-${p.id}`;
+            if (i === 0) radio.checked = true;
+            container.insertBefore(radio, wrapper);
+
+            // List label
+            const label = document.createElement('label');
+            label.htmlFor = `p-${p.id}`;
+            label.innerHTML = `
+            <span class="num">${String(i + 1).padStart(2, '0')}</span>
+            <span class="title-project">${p.title}</span>
+            <span class="subtitle-project">${p.listSubtitle}</span>
+        `;
+            listEl.appendChild(label);
+
+            // Panel via template
+            const clone = template.content.cloneNode(true);
+            clone.querySelector('.t-image').src = p.image;
+            clone.querySelector('.t-category').textContent = p.category;
+            clone.querySelector('.t-title').textContent = p.title;
+            clone.querySelector('.t-description').textContent = p.description;
+            clone.querySelector('.t-engine').textContent = p.engine;
+            clone.querySelector('.t-devtime').textContent = p.devTime;
+
+            const tagsEl = clone.querySelector('.t-tags');
+            p.tags.forEach(tag => {
+                const h4 = document.createElement('h4');
+                h4.className = 'categories';
+                h4.textContent = tag;
+                tagsEl.appendChild(h4);
+            });
+
+            // Modal
+            const dialog = document.createElement('dialog');
+            dialog.id = p.id;
+            dialog.innerHTML = `
+            <input type="radio" name="tab-${p.id}" id="ss-${p.id}">
+            <input type="radio" name="tab-${p.id}" id="tr-${p.id}"checked>
+            <button class="close-button" type="button">X</button>
+            <div class="layout">
+                <header class="top">
+                    <div class="falling-lines"></div>
+                    <span class="modal-subtitle">${p.category}</span>
+                    <h3 class="modal-title">${p.title}</h3>
+                </header>
+                <main class="main">
+                    <div class="buttons">
+                        <div class="button"><label for="ss-${p.id}">Screenshots</label></div>
+                        <div class="button"><label for="tr-${p.id}">&#9654; Trailer</label></div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="panel-modal">
+                            <div class="slider">
+                                <div class="slides">
+                                    ${p.screenshots.map((s, i) => `<img class="slide ${i === 0 ? 'active' : ''}" src="${s}" alt="Screenshot ${i + 1}">`).join('')}
+                                </div>
+                                <button class="arrow prev" type="button">&#8249;</button>
+                                <button class="arrow next" type="button">&#8250;</button>
+                                <div class="dots">
+                                    ${p.screenshots.map((_, i) => `<span class="dot ${i === 0 ? 'active' : ''}"></span>`).join('')}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-modal">
+                            <video src="${p.trailer}" controls></video>
+                        </div>
+                    </div>
+                    <h4 class="modal-about">About This Project</h4>
+                    <p class="modal-paragraph">${p.modalDescription}</p>
+                    <div class="modal-categories-container">
+                        ${p.tags.map(t => `<h4 class="modal-categories">${t}</h4>`).join('')}
+                    </div>
+                </main>
+                <aside class="right">
+                    <h4 class="modal-parent">Engine</h4>
+                    <p class="modal-child">${p.engine}</p>
+                    <h4 class="modal-parent">Dev Time</h4>
+                    <p class="modal-child">${p.devTime}</p>
+                    <p class="modal-parent">Genre</p>
+                    <p class="modal-child">${p.genre}</p>
+                    <div class="divider-vertical"></div>
+                    <a href="${p.github}" target="_blank" style="text-decoration:none">
+                        <i class="devicon-github-original-wordmark showcode"><span class="showcode-text">Show Code</span></i>
+                    </a>
+                </aside>
+            </div>
+        `;
+
+            dialog.querySelector('.close-button').onclick = () => {
+                const video = dialog.querySelector('video');
+                if (video) {
+                    video.pause();
+                    video.currentTime = 0;
+
+                    dialog.close();
+                }
+            }
+            dialog.addEventListener('close', () => {
+                const video = dialog.querySelector('video');
+                if (video) {
+                    video.pause();
+                    video.currentTime = 0;
+                }
+            });
+            clone.querySelector('.t-open').onclick = () => dialog.showModal();
+
+            previewEl.appendChild(clone);
+            previewEl.appendChild(dialog);
+
+            initSlider(dialog);
+        });
+    }
+
+    renderProjects();
+    document.querySelectorAll('input[name="project"]').forEach((radio, i) => {
+        radio.addEventListener('change', () => {
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.list label').forEach(l => l.classList.remove('active'));
+
+            document.querySelectorAll('.panel')[i].classList.add('active');
+            document.querySelectorAll('.list label')[i].classList.add('active');
+        });
+    });
+
+    // Eerste panel direct actief zetten
+    document.querySelector('.panel')?.classList.add('active');
+    document.querySelector('.list label')?.classList.add('active');
+</script>
+</body>
+</html>
