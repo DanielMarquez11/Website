@@ -1151,6 +1151,18 @@ input[type="radio"] { display: none; }
         text-transform: uppercase;
         backdrop-filter:blur(10px);
     }
+
+    .scroll-down {
+        position: absolute;
+        bottom: 13rem;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #ff9a3c;
+        font-size: 1.5rem;
+        text-decoration: none;
+        animation: bounce 1.5s ease infinite;
+        z-index: 2;
+    }
     .badge {
         z-index: 2;
 
@@ -1331,7 +1343,7 @@ input[type="radio"] { display: none; }
     }
     .canvas-image img{
         position: absolute;
-        top: 72%;
+        top: 85%;
         right: 0;
         left: 0;
         bottom: 0;
